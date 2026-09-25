@@ -12,6 +12,7 @@ export default function Navbar({ active, onNavigate, theme, onToggleTheme }) {
   }
 
   return (
+    <>
     <header className="navbar">
       <div className="navbar-inner">
         <a href="#intro" className="brand" onClick={(e) => go(e, 'intro')}>
@@ -46,7 +47,7 @@ export default function Navbar({ active, onNavigate, theme, onToggleTheme }) {
           </button>
         </div>
       </div>
-
+</header>
       <div className={'mobile-overlay' + (open ? ' open' : '')}>
         <nav className="mobile-links" aria-label="Mobile">
           {NAV_ITEMS.map((item) => (
@@ -61,6 +62,6 @@ export default function Navbar({ active, onNavigate, theme, onToggleTheme }) {
           ))}
         </nav>
       </div>
-    </header>
+    </>
   )
 }
