@@ -845,3 +845,7 @@ a.project-media:hover img { transform: scale(1.03); }
   .project-items.with-thumbs { grid-template-columns: 1fr; }
 }
 .tl-item .project-links { margin-top: 12px; }
+
+.footer-bottom {
+  padding-block: 20px calc(32px + env(safe-area-inset-bottom, 0px));
+}
