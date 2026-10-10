@@ -9,10 +9,6 @@ export const NAV_ITEMS = [
 
 export const ROLES = ['Frontend Developer', 'React Developer', 'Web Developer']
 
-// Optional per-project links (each button only appears if you fill it in):
-//   source: GitHub repo URL        -> shows "Source code"
-//   demo:   Vercel / live site URL -> shows "Live demo"
-//   video:  YouTube / Drive URL    -> shows "Demo video" (for projects with no live site)
 export const PROJECTS = [
   {
     title: 'AI-Solutions Web Platform',

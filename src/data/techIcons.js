@@ -12,8 +12,7 @@ import vscode from '../assets/tech/vscode.svg'
 import chrome from '../assets/tech/chrome.svg'
 import androidStudio from '../assets/tech/androidstudio.svg'
 
-// Order matters: the first matching rule wins.
-// `mono: true` marks a dark logo that is inverted on the dark theme so it stays visible.
+
 const RULES = [
   [/^html/i, { src: html5 }],
   [/^css/i, { src: css3 }],

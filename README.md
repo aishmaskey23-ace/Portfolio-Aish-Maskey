@@ -2,7 +2,7 @@
 
 A personal portfolio site built with React + Vite. Clean, professional
 black-and-white layout with a light/dark mode toggle: a sticky top navbar, a
-hero with your photo and CV download, and sections for About, Skills,
+hero with profile photo and CV download, and sections for About, Skills,
 Projects, Experience, Education, and Contact — plus a working contact form
 that emails you directly.
 

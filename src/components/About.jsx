@@ -7,7 +7,7 @@ export default function About() {
       <div className="about-grid">
         <div>
           <p>
-            I'm a final-year Frontend Developer with a strong foundation in HTML5, CSS3 and modern JavaScript (ES6+),
+            I'm a Frontend Developer with a strong foundation in HTML5, CSS3 and modern JavaScript (ES6+),
             building responsive, interactive interfaces with React hooks and component-driven design.
             I'm comfortable across the stack with MySQL for data, and I use Figma for wireframing and UI
             layout before writing a single line of code.
