@@ -6,6 +6,10 @@ hero with profile photo and CV download, and sections for About, Skills,
 Projects, Experience, Education, and Contact — plus a working contact form
 that emails you directly.
 
+## Demo Link: https://portfolio-aish-maskey.vercel.app/
+## GitHub Repository: https://github.com/aishmaskey23-ace/Portfolio-Aish-Maskey
+![demo video](<Portfolio Demo.gif>)
+
 ## Run it locally
 
 1. Install [Node.js](https://nodejs.org) (18 or newer).
