@@ -10,8 +10,6 @@ function ExternalLink({ href, children }) {
   )
 }
 
-// Screenshot preview. Clicking it opens the live demo (or the demo video) when there is one.
-// fit="contain" shows the whole image (good for phone screenshots); default crops to fill.
 function Preview({ image, title, href, fit }) {
   const cls = 'project-media' + (fit === 'contain' ? ' contain' : '')
   const img = <img src={image} alt={`${title} preview`} loading="lazy" decoding="async" />
