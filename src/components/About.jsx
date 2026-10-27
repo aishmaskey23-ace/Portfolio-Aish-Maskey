@@ -7,15 +7,13 @@ export default function About() {
       <div className="about-grid">
         <div>
           <p>
-            I'm a final-year Frontend Developer with a strong foundation in HTML5, CSS3 and modern JavaScript (ES6+),
+            I'm a Frontend Developer with a strong foundation in HTML5, CSS3 and modern JavaScript (ES6+),
             building responsive, interactive interfaces with React hooks and component-driven design.
             I'm comfortable across the stack with MySQL for data, and I use Figma for wireframing and UI
             layout before writing a single line of code.
           </p>
           <p>
-            I'm currently in my final year of a BSc (Hons) in Computer Systems Engineering at ISMT, in
-            partnership with the University of Sunderland — splitting my time between coursework,
-            personal projects, and freelance tutoring.
+           I recently graduated with a BSc (Hons) in Computer Systems Engineering from ISMT College, in partnership with the University of Sunderland. During my studies, I balanced academic coursework with personal projects and freelance tutoring, while developing my technical and problem-solving skills.
           </p>
           <div className="lang-row">
             {['English', 'Hindi', 'Nepali'].map((l) => (

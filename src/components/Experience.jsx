@@ -10,9 +10,10 @@ export default function Experience() {
           <h3 className="tl-title">Founder — Ace Grihaa</h3>
           <div className="tl-sub">Premium home décor &amp; home living brand · Nepal</div>
           <ul>
-            <li>Founded and run an online home décor brand focused on premium, minimalist products for Nepali homes.</li>
-            <li>Developed the complete brand identity: logo, colour palette, typography and asset system across multiple formats.</li>
-            <li>Manage day-to-day operations of the online business, including product listings, customer communication and orders.</li>
+            <li>Founded and run an online home decor brand focused on premium, minimalist products for Nepali homes.</li>
+            <li>Create and publish daily social media content to showcase products, promote offers, and engage with potential customers.</li>
+            <li>Manage product listings, customer inquiries, order coordination, and day-to-day business operations.</li>
+            <li>Develop practical skills in digital marketing, content creation, communication, and brand management.</li>
           </ul>
           <div className="project-links">
             <a className="project-link is-link" href="https://www.instagram.com/acegrihaa/" target="_blank" rel="noopener noreferrer">
@@ -30,8 +31,8 @@ export default function Experience() {
           <h3 className="tl-title">Private Tutor — SEE Level</h3>
           <div className="tl-sub">Freelance</div>
           <ul>
-            <li>Taught Optional Mathematics and Nepali to SEE students.</li>
-            <li>Simplified complex concepts and managed accelerated exam preparation for two students.</li>
+            <li>Tutored SEE-level students in Optional Mathematics and Nepali, while providing additional guidance and academic support in other subjects.</li>
+            <li>Explained complex concepts clearly and helped students strengthen their understanding, problem-solving skills, and exam preparation.</li>
           </ul>
         </div>
       </div>

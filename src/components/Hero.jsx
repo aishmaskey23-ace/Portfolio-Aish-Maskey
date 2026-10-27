@@ -11,15 +11,14 @@ export default function Hero({ onNavigate }) {
       <div>
         <div className="eyebrow-badge">
           <span className="dot"></span>
-          Available for new opportunities
+          Available for Frontend Internships
         </div>
         <h1>Namaste, I'm Aish Maskey.</h1>
         <p className="role-line">
           <span className="role-word" key={role}>{role}</span>
         </p>
         <p className="lead">
-          Final-year Computer Systems Engineering student who builds responsive, accessible interfaces
-          with React — from component architecture to the small interaction details.
+         BSc (Hons) Computer Systems Engineering graduate passionate about building responsive, accessible, and user-friendly web interfaces with React. Focused on creating reusable components, writing clean code, and delivering seamless user experiences.
         </p>
                 <div className="hero-cta-row">
           <a className="btn primary" href="#projects" onClick={(e) => handleNavClick(e, 'projects', onNavigate)}>

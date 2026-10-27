@@ -13,7 +13,7 @@ export default function Education() {
             Sunderland, Tinkune (Kathmandu)
           </div>
           <ul>
-            <li>Status: currently pursuing, final year.</li>
+            <li>Grade: First-Class Honours</li>
           </ul>
         </div>
         <div className="tl-item">
