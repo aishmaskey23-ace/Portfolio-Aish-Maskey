@@ -1,6 +1,3 @@
-// Original brand colors for each icon.
-// GitHub uses the page text color so it stays visible in both dark and light themes.
-// Phone and location use the muted text color to match the rest of the contact labels.
 const BRAND_FILL = {
   github: 'var(--text)',
   linkedin: '#0A66C2',

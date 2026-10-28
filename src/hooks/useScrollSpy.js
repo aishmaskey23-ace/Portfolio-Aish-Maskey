@@ -15,7 +15,6 @@ export function useScrollSpy(ids) {
     )
     els.forEach((el) => observer.observe(el))
     return () => observer.disconnect()
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [ids])
 
   return active

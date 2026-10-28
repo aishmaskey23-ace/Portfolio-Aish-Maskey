@@ -6,7 +6,6 @@ function getInitialTheme() {
     const stored = window.localStorage.getItem('theme')
     if (stored === 'light' || stored === 'dark') return stored
   } catch (e) {
-    /* localStorage unavailable — fall through to system preference */
   }
   if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
     return 'light'
@@ -22,7 +21,6 @@ export function useTheme() {
     try {
       window.localStorage.setItem('theme', theme)
     } catch (e) {
-      /* ignore write failures (private browsing, etc.) */
     }
   }, [theme])
 

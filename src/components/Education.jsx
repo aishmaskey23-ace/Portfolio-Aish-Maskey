@@ -6,7 +6,7 @@ export default function Education() {
       </div>
       <div className="timeline">
         <div className="tl-item">
-          <div className="tl-date">Oct 2023 – Present</div>
+          <div className="tl-date">Oct 2023 – Oct 2026</div>
           <h3 className="tl-title">BSc (Hons) Computer Systems Engineering</h3>
           <div className="tl-sub">
             International School of Management &amp; Technology (ISMT), in partnership with University of
